@@ -1,0 +1,81 @@
+/* navbar */
+.navbar .navbar-brand {
+  font-family: redressed;
+}
+.navbar {
+  border-radius: 5px;
+  background-image: url(./bg/jeremy-bishop-G9i_plbfDgk-unsplash.jpg);
+}
+
+/* heroes */
+.jumbotron {
+  text-align: center;
+  background-image: url(./bg/malik-skydsgaard-jY9rX-E7ztU-unsplash.jpg);
+  background-size: cover;
+  color: aliceblue;
+}
+.jumbotron .pp {
+  padding-top: 90px;
+  padding-bottom: 40px;
+}
+.jumbotron .pp img {
+  width: 200px;
+}
+.jumbotron .claim {
+  padding-bottom: 50px;
+  text-shadow: 1px 1px 1px rgba(69, 145, 245, 0.7);
+}
+/* about */
+.abt {
+  background-color: rgb(0, 0, 0);
+  background-size: cover;
+  margin-top: -10px;
+  border-radius: 6px;
+  color: aliceblue;
+}
+.about h3 {
+  font-family: permanent marker;
+  padding-top: 10px;
+  border-radius: 5px;
+}
+.about p {
+  font-size: 17px;
+}
+/* project */
+.project-area h3 {
+  margin-bottom: -100px;
+  color: rgb(255, 255, 255);
+}
+.project-area .galery {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10rem;
+  margin-top: -80px;
+  color: rgb(255, 255, 255);
+}
+.conta {
+  background-image: url(./bg/malik-skydsgaard-jY9rX-E7ztU-unsplash.jpg);
+  background-size: cover;
+}
+.galer {
+  border-radius: 10px;
+}
+.footer {
+  padding-top: 7px;
+  background-image: url(./bg/jeremy-bishop-G9i_plbfDgk-unsplash.jpg);
+}
+.footer p {
+  margin-top: 7px;
+}
+@media (min-width: 992px) {
+  .jumbotron .pp {
+    padding-top: 90px;
+    padding-bottom: 40px;
+  }
+  .jumbotron .pp img {
+    width: 350px;
+  }
+  .about p {
+    font-size: 20px;
+  }
+}
